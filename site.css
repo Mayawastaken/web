@@ -17,6 +17,7 @@ ul {
 li {
   float: left;}
 li a {
+  font-size: 20px;
   display: block;
   color: orange;
   text-align: center;
