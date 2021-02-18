@@ -30,11 +30,13 @@ li a:hover {
 p a {
   color: orange;}
 .btn {
+  font-size: 18px;
   background-color: #0A0;
+  text-align: center;
   border: none;
   color: orange;
   text-decoration: none;
-  padding: 12px 16px;
+  padding: 16px 16px;
   font-size: 16px;
   cursor: pointer;
   font-family: none;
