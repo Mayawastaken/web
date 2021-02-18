@@ -29,3 +29,15 @@ li a:hover {
   background-color: #080;}
 p a {
   color: orange;}
+.btn {
+  background-color: #0A0;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: none;
+}
+.btn:hover {
+  background-color: #080;
+}
