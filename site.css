@@ -29,6 +29,6 @@ li a:hover {
   background-color: #080;}
 p a {
   color: orange;}
-li a:active {
+.onit {
   background-color: #080;
   font-weight: bold;}
