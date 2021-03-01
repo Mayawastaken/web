@@ -10,18 +10,24 @@ img {
   border: 5px solid #0A0;}
 h2 {
   text-decoration: underline;}
-.offit {
+ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
   overflow: hidden;
+  background-color: #0A0;}
+/*
+.offit {
+  list-style-type: none
+  overflow: hidden
   font-size: 18px;
   display: block;
   color: orange;
   text-align: center;
-/*  padding: 16px 16px; */
-  padding: 0; 
+  padding: 16px 16px;
   text-decoration: none;
   background-color: #0A0;}
+*/
 li {
   float: left;}
 li a {
@@ -35,16 +41,16 @@ li a:hover {
   background-color: #080;}
 p a {
   color: orange;}
+/*
 .onit {
   list-style-type: none;
-  margin: 0;
-  overflow: hidden;
+  overflow: hidden
   font-size: 18px;
   display: block;
   color: orange;
   text-align: center;
-/*  padding: 16px 16px; */
-  padding: 0; 
+  padding: 16px 16px;
   text-decoration: none;
   background-color: #080;
   font-weight: bold;}
+*/
