@@ -13,7 +13,7 @@ h2 {
 .offit {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 16px 16px;
   overflow: hidden;
   background-color: #0A0;}
 li {
@@ -32,7 +32,7 @@ p a {
 .onit {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 16px 16px;
   overflow: hidden;
   background-color: #080;
   font-weight: bold;}
