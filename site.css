@@ -10,6 +10,12 @@ img {
   border: 5px solid #0A0;}
 h2 {
   text-decoration: underline;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0A0;}
 .offit {
   font-size: 18px;
   display: block;
