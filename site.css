@@ -10,11 +10,7 @@ img {
   border: 5px solid #0A0;}
 h2 {
   text-decoration: underline;}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.offit {
   background-color: #0A0;}
 li {
   float: left;}
