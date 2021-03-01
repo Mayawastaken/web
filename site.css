@@ -11,8 +11,8 @@ img {
 h2 {
   text-decoration: underline;}
 .offit {
-  list-style-type: none
-  overflow: hidden
+  list-style-type: none;
+  overflow: hidden;
   font-size: 18px;
   display: block;
   color: orange;
@@ -35,7 +35,7 @@ p a {
   color: orange;}
 .onit {
   list-style-type: none;
-  overflow: hidden
+  overflow: hidden;
   font-size: 18px;
   display: block;
   color: orange;
