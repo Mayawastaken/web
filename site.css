@@ -10,13 +10,9 @@ img {
   border: 5px solid #0A0;}
 h2 {
   text-decoration: underline;}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #0A0;}
 .offit {
+  list-style-type: none
+  overflow: hidden
   font-size: 18px;
   display: block;
   color: orange;
@@ -38,6 +34,8 @@ li a:hover {
 p a {
   color: orange;}
 .onit {
+  list-style-type: none;
+  overflow: hidden
   font-size: 18px;
   display: block;
   color: orange;
