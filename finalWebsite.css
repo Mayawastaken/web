@@ -25,13 +25,13 @@ li a {
   padding: 16px 16px;
   text-decoration: none;}
 li a:hover {
-  background-color: #912491;}
+  background-color: #86bd8a;}
 p a {
   color: #93a0f5;}
 .offit {
   background-color: #ccedce;}
 .onit {
-  background-color: #912491;
+  background-color: #86bd8a;
   font-weight: bold;}
   
 /*
@@ -57,6 +57,6 @@ p a {
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
-  background-color: #912491;
+  background-color: #86bd8a;
   font-weight: bold;}
 */
