@@ -1,12 +1,12 @@
 body {
-  background-color: #ebd3eb;
+  background-color: #ffd1ff;
   color: #93a0f5;}
 h1 {
   font-family: Apple Chancery;
   text-align: center;
   font-size: 45px;}
 img {
-  border: 5px solid #f542f5;}
+  border: 5px solid #ccedce;}
 h2 {
   text-decoration: underline;}
 ul {
@@ -14,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #f542f5;}
+  background-color: #ccedce;}
 li {
   float: left;}
 li a {
@@ -29,7 +29,7 @@ li a:hover {
 p a {
   color: #93a0f5;}
 .offit {
-  background-color: #f542f5;}
+  background-color: #ccedce;}
 .onit {
   background-color: #912491;
   font-weight: bold;}
@@ -44,7 +44,7 @@ p a {
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
-  background-color: #f542f5;}
+  background-color: #ccedce;}
 */
   
 /*
