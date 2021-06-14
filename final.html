@@ -15,21 +15,23 @@
     </li>
     <li>
       <h3>Project Description</h3>
-      <p>My project basically works similarly to a browser’s (such as Google) "suggested search" function, but with respect to a given input data set (a transcript of a Gutenberg book). It will be a "smart suggester", suggesting the top (most frequent) occurrences of 2-word phrases that follow a given input search "seed" (a string of 2, 3, or 4 words).</p>
+      <p>My project basically works similarly to a browser’s (such as Google) "suggested search" function, but with respect to a given input data set (a url for a Gutenberg book that has 'CHAPTER's with roman numerals). It will be a "smart suggester", suggesting the top (most frequent) occurrences of 2-word phrases that follow a each given input search "seed" (a string of 2, then 3, and then 4 words).</p>
     </li>
     <li>
       <h3>Instructions</h3>
       <ol>
         <li>Run the python script from my public_html folder, ie: mdoron-repa30@moe:~/public_html$ ./PythonFinalProject1.py</li>
+        <li>Either input FINISH THIS LUV
         <li>Input a 2 word seed (that must appear in the source text (Jane Eyre))... eg "in the" has many permutations</li>
         <li>Close (click the 'X') the histogram when ready</li>
-        <li>Repeat steps 2 and 3 with three- and four-word seeds, respectively, from the text (can look at histogram labels to see some possibilities)</li>
+        <li>Repeat steps 3 and 4 with three- and four-word seeds, respectively, from the text (can look at histogram labels to see some possibilities)</li>
         <li>After closing the final histogram, navigate any browser to the webpage: http://moe.stuy.edu/~mdoron-repa30/finalWebsite.html</li>
         <li>Click on the different tabs to see the results!</li>
       </ol>
     </li>
     <li>
       <h3>How It Works</h3>
+      <p>The program first asks for an inputted text. If an inputted text is given, it reads it through python and uses it as the source text (using getWebText). If an inputted text is not given, it auto-uses a text of Jane Eyre, which again is read through python. The text is then parsed using python function parseText (which removes annoying features of books like chapter headers and unwanted words at the start and end of books). The moe program then asks the user for an inputed 2 word seed. Python then takes the input and creates a dictionary where the keys are the 2-word strings that could follow the seed, and the values are the frequency of the keys (using make_dict and element_counts). It then takes the top most frequent occurances of the keys in descending order(using sortdict_desc), and makes (and shows the user) a bar graph using matplotlib (using the function histogram_occurances). It then repeats this for the 3- and 4-word seeds inputted. Finally, it transfers the data to my webpage (http://moe.stuy.edu/~mdoron-repa30/finalWebsite.html</li>), and puts the 2-, 3-, and 4-word seed data in their respective subpages, ready for the user to see.</p>
     </li>
     <li>
       <h3>Files</h3>
